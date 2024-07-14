@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/" }
+  ],
+  "env": {
+    "OWNER_NAME": "FAMOUS-TECH",
+    "CAN_WELCOME": "true",
+    "CAN_GOODBYE": "false",
+    "BOT_NAME": "FAMOUS BOT",
+    "TZ": "Asia/Karachi",
+    "FLUSH": "false",
+    "WARN_COUNT": "3",
+    "HEROKU_API_KEY": "",
+    "HEROKU_APP_NAME": "",
+    "MSGS_IN_LOG": "false",
+    "PREFIX": ".",
+    "OWNER_NUMBER": "50943782508",
+    "SESSION_ID": "",
+    "OPENAI_API_KEY": "",
+    "ELEVENLAB_API_KEY": "",
+    "REMOVE_BG_KEY": "",
+    "MODE": "private",
+    "PACK_NAME": "BOT BY ",
+    "PACK_AUTHER": "FAMOUS-TECH"
+  }
+      
