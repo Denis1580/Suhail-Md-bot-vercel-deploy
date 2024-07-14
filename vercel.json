@@ -29,5 +29,6 @@
     "MODE": "private",
     "PACK_NAME": "BOT BY ",
     "PACK_AUTHER": "FAMOUS-TECH"
+    "MONGODB_URI" : "mongod+srv://famous-tech1@cluster0.bdhpqkd.mongodb.net/" 
   }
       
